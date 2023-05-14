@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: 'Inter';
+}
+
+body{
+  background-color: #272727;
+}
+
+/* navbar */
+ul li  a.nav-link{
+  color : #c9c9c9;
+}
+
+ul li  a.nav-link:hover{
+  color : #ffffff;
+}
+
+.navbar-custom{
+  border-bottom: 1px solid #6c757d;
+}
+
+.bg-navbar{
+  background-color: #272727;
+}
+/* about */
+.about{
+  color :#4ca9ff;
+  line-height: 60px;
+}
+
+.content-about {
+  width: 90%;
+}
+
+.img-profile {
+  border: 1px solid #62D9FF;
+}
+
+.content-biografi h4{
+  color : #ffffff;
+  letter-spacing: 1px;
+}
+
+.content-biografi p{
+  color : #c9c9c9;
+}
+
+.content-social a i{
+  color:#ffffff;
+}
+/* card custom */
+.card-custom{
+  width: 50%;
+  margin-left: 5%;
+  background-color: rgb(61, 61, 61);
+}
+
+.icon-custom{
+top : -30px;
+background-color: rgb(61, 61, 61);
+}
+
+.card-skill{
+  background-color:rgb(61, 61, 61);
+}
+/* portofolio */
+.portofolio {
+  padding-top: 50px;
+}
+
+.portofolio h2{
+  font-family: "Sora";
+  font-size: 48px;
+}
+
+.portofolio h3{
+  font-family: "Sora";
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.portofolio p{
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tombol{
+  background-color: #6c757d;
+  color:#c9c9c9;
+}
+
+.tombol:hover{
+  background-color: #62D9FF;
+  color:#ffffff;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.border-footer{
+  border-top: 1px solid #6c757d;
+}
+
+.footer{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer a{
+  font-size: 28px;
+  color :#ffffff
+}
+
+/* page porto */
+.heading-text h2,span{
+  font-size: 48px;
+  font-family: "Sora";
+  color :#ffffff;
+}
+
+.container-custom{
+  background-color: #6c757d;
+  border-radius:5px;
+  width: 88%;
+  height: 20pc;
+  overflow: hidden;
+}
+
+.container-custom img{
+  transition: ease 1s;
+}
+
+.container-custom img:hover{
+  transform: scale(2);
+}
+
+.kotak-arrow{
+  background-color: #c9c9c9;
+  padding: 6px;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  top: 5px;
+  right: 5px;
+}
+
+.img-arrow{
+  rotate : -45deg;
+  color: #ffffff;
+}
